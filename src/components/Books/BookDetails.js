@@ -26,13 +26,13 @@ const BookDetails = () => {
           <h5 className='mb-3 text-3xl font-extrabold leading-none sm:text-4xl'>
             {title}
           </h5>
-          <p className='mb-5 text-gray-900'>
+          <p className='mb-5 text-black'>
             Authors: {authors.substring(0, 50)}
           </p>
-          <p className='mb-5 text-gray-900'>Publisher: {publisher}</p>
-          <p className='mb-5 text-gray-900'>Year: {year}</p>
-          <p className='mb-5 text-gray-900'>Rating: {rating}</p>
-          <p className='mb-5 text-gray-800'>{desc.substring(0, 150)}...</p>
+          <p className='mb-5 text-black'>Publisher: {publisher}</p>
+          <p className='mb-5 text-black'>Year: {year}</p>
+          <p className='mb-5 text-black'>Rating: {rating}</p>
+          <p className='mb-5 text-black'>{desc.substring(0, 150)}...</p>
           <div className='flex items-center'>
 
             <a href={pdf && Object.values(pdf)[0]}>
